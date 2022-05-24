@@ -5,6 +5,42 @@ html {
 	font-family: 'roboto', sans-serif;
 }
 
+#name {
+	font-family: Quicksand,sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	text-transform: uppercase;
+	margin: 2px 10px 2px 5px;
+	display: block;
+	min-width: 325px;
+}
+
+nav {
+	height: 65px;
+	width: 100%;
+	background-color: pink;
+	position: fixed;
+	top: 0;
+	display: flex;
+	border-bottom: 2px solid #5dbdca;
+}
+
+nav li {
+	text-decoration: none;
+}
+
+nav a, nav li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 5px;
+}
+
+nav div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
 a {
 	color: black;
 	text-decoration: none;
@@ -17,15 +53,24 @@ a:hover {
 
 
 h1 {
-	font-size: 100px;
+	font-size: 50px;
 	color: black;
 }
 
-#greet-box {
-	text-align: center;
-	
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+
+.about-section {
+	margin-top: 100px;
 }
 
 button {
 	background-color: rgb(206, 112, 131);
+	width: 17%;
+	height: 30px;
+	font-size: 20px;
 }
