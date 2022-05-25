@@ -5,7 +5,7 @@ html {
 	font-family: 'roboto', sans-serif;
 }
 
-#name {
+.name {
 	font-family: Quicksand,sans-serif;
 	font-weight: 300;
 	font-size: 60px;
@@ -13,33 +13,10 @@ html {
 	margin: 2px 10px 2px 5px;
 	display: block;
 	min-width: 325px;
+	padding: 2px 10px 2px 5px;
+	text-align: center;
 }
 
-nav {
-	height: 65px;
-	width: 100%;
-	background-color: pink;
-	position: fixed;
-	top: 0;
-	display: flex;
-	border-bottom: 2px solid #5dbdca;
-}
-
-nav li {
-	text-decoration: none;
-}
-
-nav a, nav li {
-	display: inline-block;
-	text-decoration: none;
-	margin: 0 5px;
-}
-
-nav div {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-}
 
 a {
 	color: black;
@@ -48,24 +25,46 @@ a {
 }
 
 a:hover {
+	/* color: white; */
 	color: white;
 }
 
-
-h1 {
-	font-size: 50px;
-	color: black;
-}
-
-.navigation {
+#navigation {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0px 0px 0px;;
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-.about-section {
-	margin-top: 100px;
+ul li {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.image {
+	display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 35%;
 }
 
 button {
