@@ -90,6 +90,7 @@ h1 {
 	display: block;
 	justify-content: center;
 	align-items: center;
+	justify-content: space-evenly;
 }
 
 .myProjects {
@@ -98,6 +99,12 @@ h1 {
 	padding-top: 15px;
 	padding-bottom: 0px;
 	font-size: 30px;
+}
+
+.projectDiv {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
 }
 
 .sow {
